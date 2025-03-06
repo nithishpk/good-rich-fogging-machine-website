@@ -1,0 +1,180 @@
+/* Part compatibility and usage styles */
+.service-content .compatibility,
+.service-content .usage {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+.service-content .compatibility::before {
+    content: "Compatibility: ";
+    font-weight: bold;
+}
+
+.service-content .usage::before {
+    content: "Usage: ";
+    font-weight: bold;
+}
+/* Sticky Contact Elements Group */
+.sticky-elements-group {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Sticky Contact Buttons */
+.sticky-contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.sticky-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.sticky-button:hover {
+    transform: scale(1.1);
+}
+
+.phone-button {
+    background-color: #28a745;
+}
+
+.whatsapp-button {
+    background-color: #25d366;
+}
+
+/* Updated Sticky Enquiry Form Styles */
+.sticky-enquiry-form {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.enquiry-toggle-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fb7832;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 1001;
+}
+
+.enquiry-toggle-btn:hover {
+    transform: scale(1.1);
+}
+
+.enquiry-form-container {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
+.enquiry-form-container.active {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.enquiry-form-container h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.enquiry-form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.enquiry-form-container .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.enquiry-form-container .form-control.select2 {
+    margin-bottom: 10px;
+}
+
+.enquiry-form-container .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fb7832;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enquiry-form-container .btn:hover {
+    background-color: #e66a25;
+}
+
+/* Dynamic Form Fields */
+.dynamic-fields {
+    display: none;
+}
+
+.dynamic-fields.active {
+    display: block;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sticky-elements-group {
+        right: 10px;
+    }
+
+    .enquiry-form-container {
+        width: 280px;
+        right: 60px;
+    }
+}
+
+@media (max-height: 600px) {
+    .sticky-elements-group {
+        gap: 5px;
+    }
+
+    .sticky-button,
+    .enquiry-toggle-btn {
+        width: 40px;
+        height: 40px;
+    }
+}

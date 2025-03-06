@@ -1,0 +1,221 @@
+{
+  "main_product": {
+    "name": "Seesa Super 2000 Gold Sprayers Fogging Machine",
+    "model": "SS-2000G",
+    "price": "₹4,999",
+    "description": "Professional heavy-duty electric sprayer and fogging machine for pest control, sanitization, and agricultural applications",
+    "specifications": {
+      "tank_capacity": "12 liters",
+      "motor": "Pure copper motor with thermal protection",
+      "power": "2000W",
+      "spray_distance": "15-20 meters",
+      "material": "High-impact resistant plastic",
+      "voltage": "220-240V",
+      "frequency": "50Hz",
+      "tank_material": "UV stabilized plastic",
+      "spray_patterns": "Adjustable from mist to jet",
+      "weight": "3.5 kg (empty)"
+    },
+    "features": [
+      "2000W powerful pure copper motor",
+      "Large 12L tank capacity",
+      "Extended spray reach (15-20 meters)",
+      "Multi-functional nozzle system",
+      "Ergonomic design with comfortable grip",
+      "Thermal protection for motor safety",
+      "Anti-corrosive and chemical resistant tank",
+      "Adjustable shoulder strap",
+      "Low noise operation",
+      "Easy maintenance design"
+    ],
+    "applications": [
+      "Professional pest control",
+      "Agricultural spraying",
+      "Disinfection and sanitization",
+      "Garden and greenhouse use",
+      "Industrial cleaning",
+      "Public health sanitation"
+    ],
+    "package_contents": [
+      "Seesa Super 2000 Gold Machine",
+      "Adjustable spray nozzle",
+      "Extension rod",
+      "Shoulder strap",
+      "User manual",
+      "Warranty card"
+    ],
+    "images": [
+      "/images/products/image.png"
+    ]
+  },
+  "parts": {
+    "spraying_components": [
+      {
+        "name": "Professional Nozzle Set",
+        "description": "Set of 3 specialized nozzles (mist, jet, and fan spray patterns)",
+        "compatibility": "Seesa Super 2000 Gold model",
+        "price": "₹899"
+      },
+      {
+        "name": "Heavy-Duty Tank",
+        "description": "12L UV-stabilized replacement tank with measurements",
+        "compatibility": "Seesa Super 2000 Gold model",
+        "price": "₹1,299"
+      },
+      {
+        "name": "Extended Spray Lance",
+        "description": "3-meter professional grade spray lance for increased reach",
+        "compatibility": "Universal fit for Seesa models",
+        "price": "₹599"
+      },
+      {
+        "name": "Premium Pressure Control Valve",
+        "description": "Adjustable pressure control for precise application",
+        "compatibility": "Seesa Super 2000 Gold model",
+        "price": "₹449"
+      }
+    ],
+    "maintenance_parts": [
+      {
+        "name": "Professional Filter Kit",
+        "description": "Complete set of high-grade filters for optimal performance",
+        "usage": "Regular maintenance",
+        "price": "₹299"
+      },
+      {
+        "name": "Gold Series Seal Kit",
+        "description": "Professional grade seals and O-rings for 2000 Gold model",
+        "usage": "Prevent leakage and maintain pressure",
+        "price": "₹249"
+      },
+      {
+        "name": "2000W Motor Service Kit",
+        "description": "Motor brushes, bearings, and repair components",
+        "usage": "Motor maintenance and repair",
+        "price": "₹999"
+      }
+    ]
+  },
+  "chemicals": {
+    "insecticides": [
+      {
+        "name": "Premium Pest Control Solution",
+        "type": "Concentrated insecticide",
+        "size": "1 liter",
+        "target_pests": [
+          "Cockroaches",
+          "Ants",
+          "Spiders",
+          "Bed bugs",
+          "Termites"
+        ],
+        "price": "₹1,299",
+        "usage": "Dilute 20ml per liter of water",
+        "safety_measures": [
+          "Wear protective gear",
+          "Keep away from children",
+          "Avoid contact with eyes and skin"
+        ]
+      },
+      {
+        "name": "Advanced  Insect Control",
+        "type": "Ready to use solution",
+        "size": "500ml",
+        "target_pests": ["Cockroaches", "Ants", "Silverfish"],
+        "price": "₹699",
+        "usage": "Direct application through sprayer",
+          "safety_measures": [
+          "Wear protective gear",
+          "Keep away from children",
+          "Avoid contact with eyes and skin"
+        ]
+      }
+    ],
+    "sanitizers": [
+      {
+        "name": "Industrial Grade Sanitizer",
+        "type": "Concentrated solution",
+        "size": "5 liters",
+        "applications": [
+          "Disinfection",
+          "Air sanitization",
+          "Sterilization"
+        ],
+        "price": "₹2,499",
+        "usage": "Dilute 15ml per liter of water"
+      },
+      {
+        "name": "Bio-Safe Sanitizer",
+        "type": "Eco-friendly concentrate",
+        "size": "2 liters",
+        "applications": ["General sanitization", "Safe for food areas"],
+        "price": "₹1,299",
+        "usage": "Dilute 25ml per liter of water"
+      }
+    ]
+  },
+  "services": {
+    "equipment_services": [
+      {
+        "name": "Professional Installation & Training",
+        "description": "Expert installation, operation training, and best practices demonstration",
+        "duration": "2-3 hours",
+        "price": "₹999",
+        "includes": [
+          "Machine setup",
+          "Operation training",
+          "Safety guidelines",
+          "Maintenance instructions"
+        ]
+      },
+      {
+        "name": "Premium Maintenance Service",
+        "description": "Comprehensive machine service and performance optimization",
+        "duration": "1-2 hours",
+        "price": "₹1,299",
+        "includes": [
+          "Deep cleaning",
+          "Parts inspection",
+          "Performance testing",
+          "Minor repairs"
+        ]
+      }
+    ],
+    "pest_control_services": [
+      {
+        "name": "Comprehensive Pest Control",
+        "description": "Professional pest control service using Seesa 2000 Gold machine",
+        "coverage": "Up to 2000 sq ft",
+        "duration": "3-4 hours",
+        "price": "Starting from ₹2,499",
+        "includes": [
+          "Site inspection",
+          "Treatment application",
+          "Safety measures",
+          "Follow-up check"
+        ]
+      },
+      {
+        "name": "Industrial Pest Management",
+        "description": "Customized pest control solutions for commercial spaces",
+        "coverage": "Based on facility size",
+        "duration": "Custom schedule",
+        "price": "Quote on inspection"
+      }
+    ],
+    "consultation": [
+      {
+        "name": "Expert Consultation",
+        "description": "Professional assessment and customized solution planning",
+        "duration": "1 hour",
+        "price": "₹499",
+        "includes": [
+          "Site evaluation",
+          "Pest identification",
+          "Treatment planning",
+          "Product recommendations"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+.sticky-social {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 98;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-social li {
+    margin: 15px 0;
+}
+
+.sticky-social a {
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.sticky-social a:hover {
+    transform: translateX(-5px);
+    color: #007bff;
+}
+
+.sticky-social button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.sticky-social button:hover {
+    transform: translateX(-5px);
+    color: #007bff;
+}
+
+/* Sticky Enquiry Form Styles */
+.sticky-enquiry-form {
+    position: fixed;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    display: none;
+    pointer-events: none;
+}
+
+.sticky-enquiry-form.active {
+    display: block;
+    pointer-events: all;
+}
+
+.enquiry-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.enquiry-form-container.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Ensure the form is above other elements */
+body.has-sticky-form {
+    overflow-x: hidden;
+}
+
+.close-form {
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.close-form:hover {
+    color: #007bff;
+}
+
+.sticky-enquiry-form .form-group {
+    margin-bottom: 15px;
+}
+
+.sticky-enquiry-form .form-control {
+    border-radius: 4px;
+}
+
+.dynamic-fields {
+    display: none;
+}
+
+/* Select2 Customization */
+.sticky-enquiry-form .select2-container .select2-selection--multiple {
+    min-height: 38px;
+    border: 1px solid #ced4da;
+}
+
+.sticky-enquiry-form .select2-container .select2-selection--single {
+    height: 38px;
+    border: 1px solid #ced4da;
+}
+
+.sticky-enquiry-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 36px;
+}
+
+.sticky-enquiry-form .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}

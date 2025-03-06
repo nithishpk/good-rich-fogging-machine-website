@@ -1,0 +1,124 @@
+{
+  "maintenance_parts": [
+    {
+      "id": "spraying-nozzle",
+      "name": "Spraying Nozzle",
+      "usage": "Spraying Component",
+      "description": "High-quality nozzle for precise chemical dispersion"
+    },
+    {
+      "id": "tank",
+      "name": "Tank",
+      "usage": "Storage Component",
+      "description": "Durable chemical storage tank with optimal capacity"
+    },
+    {
+      "id": "motor",
+      "name": "Motor",
+      "usage": "Power Component",
+      "description": "High-performance motor for consistent operation"
+    },
+    {
+      "id": "pipe",
+      "name": "Pipe",
+      "usage": "Flow Component",
+      "description": "Heavy-duty pipes for chemical transfer"
+    },
+    {
+      "id": "pump",
+      "name": "Pump",
+      "usage": "Pressure Component",
+      "description": "Industrial-grade pump for optimal pressure"
+    },
+    {
+      "id": "pressure-gauge",
+      "name": "Pressure Gauge",
+      "usage": "Monitoring Component",
+      "description": "Accurate pressure monitoring system"
+    },
+    {
+      "id": "control-valve",
+      "name": "Control Valve",
+      "usage": "Control Component",
+      "description": "Precision flow control mechanism"
+    },
+    {
+      "id": "filter",
+      "name": "Filter",
+      "usage": "Filtration Component",
+      "description": "High-efficiency filtering system"
+    },
+    {
+      "id": "trigger-gun",
+      "name": "Trigger Gun",
+      "usage": "Application Component",
+      "description": "Ergonomic spray control mechanism"
+    },
+    {
+      "id": "hose",
+      "name": "Hose",
+      "usage": "Connection Component",
+      "description": "Flexible, durable chemical transfer hose"
+    },
+    {
+      "id": "nozzle-tip",
+      "name": "Nozzle Tip",
+      "usage": "Spray Component",
+      "description": "Replaceable precision spray tip"
+    },
+    {
+      "id": "seal-kit",
+      "name": "Seal Kit",
+      "usage": "Sealing Component",
+      "description": "Complete set of machine seals"
+    },
+    {
+      "id": "strainer",
+      "name": "Strainer",
+      "usage": "Filtration Component",
+      "description": "Chemical filtration system"
+    },
+    {
+      "id": "pressure-regulator",
+      "name": "Pressure Regulator",
+      "usage": "Control Component",
+      "description": "Precise pressure control system"
+    },
+    {
+      "id": "tank-lid",
+      "name": "Tank Lid",
+      "usage": "Storage Component",
+      "description": "Secure chemical tank cover"
+    },
+    {
+      "id": "o-rings",
+      "name": "O-Rings",
+      "usage": "Sealing Component",
+      "description": "Various sizes of sealing rings"
+    },
+    {
+      "id": "connecting-rod",
+      "name": "Connecting Rod",
+      "usage": "Motion Component",
+      "description": "Durable machine connecting rod"
+    },
+    {
+      "id": "piston",
+      "name": "Piston",
+      "usage": "Pressure Component",
+      "description": "High-performance piston assembly"
+    },
+    {
+      "id": "cylinder",
+      "name": "Cylinder",
+      "usage": "Pressure Component",
+      "description": "Precision machined cylinder"
+    },
+    {
+      "id": "gasket",
+      "name": "Gasket",
+      "usage": "Sealing Component",
+      "description": "Various machine gaskets"
+    }
+  ]
+}
