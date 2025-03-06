@@ -26,7 +26,7 @@ class ContactController extends Controller
             'message' => 'required|string',
             'products' => 'required_if:type,product|array',
             'parts' => 'required_if:type,parts|array',
-            'service' => 'required_if:type,service|string|in:general,repair,maintenance'
+            // 'service' => 'required_if:type,service|string|in:general,repair,maintenance'
         ]);
 
         try {

@@ -270,6 +270,7 @@
         <!-- Main Content -->
         <main role="main" id="main-content">
             @yield('content')
+
         </main>
 
         <!-- Footer Area Start -->

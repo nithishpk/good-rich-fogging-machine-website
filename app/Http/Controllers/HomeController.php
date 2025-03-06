@@ -74,7 +74,12 @@ class HomeController extends Controller
                 ]
             ];
 
-            return view('pages.home', compact('mainProduct', 'parts'));
+
+            $insecticidesChemicals = $productData['chemicals']['insecticides'];
+            $sanitizersChemicals = $productData['chemicals']['sanitizers'];
+
+
+            return view('pages.home', compact('mainProduct', 'parts', 'insecticidesChemicals', 'sanitizersChemicals'));
         } catch (\Exception $e) {
             // Fallback data if file reading fails
             $mainProduct = [

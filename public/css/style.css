@@ -95,7 +95,7 @@
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    right: 60px;
+    right:  -9px;
     bottom: 0;
     background: #ffffff;
     padding: 20px;
@@ -163,7 +163,7 @@
 
     .enquiry-form-container {
         width: 280px;
-        right: 60px;
+        right: 0px;
     }
 }
 
